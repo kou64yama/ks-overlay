@@ -64,8 +64,8 @@ src_install() {
 	insinto /usr/share
 	doins -r icons
 
-	newinitd "${FILESDIR}/init-${PV}" "${PN}d"
-	newconfd "${FILESDIR}/conf-${PV}" "${PN}d"
+	newinitd "${FILESDIR}/init" "${PN}d"
+	newconfd "${FILESDIR}/conf" "${PN}d"
 
 }
 
