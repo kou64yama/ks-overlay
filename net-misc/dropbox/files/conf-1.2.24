@@ -1,0 +1,13 @@
+# /etc/conf.d/dropboxd
+
+# Select Dropbox accounts.
+#
+# Example:
+# DROPBOX_USERS="dropbox_user1 dropbox_user2"
+
+DROPBOX_USERS=""
+
+# Local Variables:
+# mode: conf-unix;
+# End:
+
