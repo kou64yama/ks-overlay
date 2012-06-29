@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<repositories version="1.0">
+
+  <repo priority="50" quality="experimental" status="unofficial">
+    <name>ks-overlay</name>
+    <description>My local ebuilds.</description>
+    <homepage>http://twitter.com/#!/kou64yama</homepage>
+    <owner><email>kou64yama@gmail.com</email></owner>
+    <source type="git">https://github.com/kou64yama/ks-overlay.git</source>
+  </repo>
+
+</repositories>
