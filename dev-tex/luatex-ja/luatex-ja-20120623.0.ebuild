@@ -14,7 +14,7 @@ HOMEPAGE="http://sourceforge.jp/projects/luatex-ja/"
 SRC_URI=""
 
 if [[ ${PV} != *9999 ]]; then
-    KEYWORDS="~ams64 ~x86 ~x64-macos ~x86-macos"
+    KEYWORDS="~amd64 ~x86 ~x64-macos ~x86-macos ~amd64-fbsd ~x86-fbsd"
     EGIT_COMMIT="${PV}"
 else
     KEYWORDS=""
