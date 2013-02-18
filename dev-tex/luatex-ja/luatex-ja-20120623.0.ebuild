@@ -29,10 +29,10 @@ RDEPEND=""
 
 src_install() {
 
-    insinto /usr/share/texmf-site/tex/luatexja
+    insinto /usr/share/texmf-dist/tex/luatex/luatexja
     doins -r src/*
 
-    insinto /usr/share/texmf-site/tex/luatexja/patches
+    insinto /usr/share/texmf-dist/tex/luatex/luatexja/patches
     doins ${FILESDIR}/xunicode.sty
 
     if use doc; then
